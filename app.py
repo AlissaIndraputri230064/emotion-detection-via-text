@@ -8,10 +8,10 @@ label_encoder = joblib.load('label_encoder.pkl')
 
 # Layout Streamlit
 st.title("Emotion Detection from Text")
-st.write("Masukkan sistem akan mendeteksi emosi yang terkandung dalam teks.")
+st.write("Enter text in English and the system will detect the emotions contained in the text.")
 
 # Input teks dari pengguna
-user_input = st.text_area("Tulis Teks Disini:")
+user_input = st.text_area("Write text here")
 
 if user_input:
     # Vektorisasi input
