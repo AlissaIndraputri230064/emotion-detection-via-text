@@ -8,7 +8,7 @@ label_encoder = joblib.load('label_encoder.pkl')
 
 # Layout Streamlit
 st.title("Emotion Detection from Text")
-st.write("Masukkan teks dan sistem akan mendeteksi emosi yang terkandung dalam teks.")
+st.write("Masukkan sistem akan mendeteksi emosi yang terkandung dalam teks.")
 
 # Input teks dari pengguna
 user_input = st.text_area("Tulis Teks Disini:")
