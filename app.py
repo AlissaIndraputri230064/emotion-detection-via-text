@@ -34,4 +34,4 @@ if user_input:
         text_output = "Fear"
 
     # Tampilkan hasil
-    st.write(f"Prediksi Emosi: {text_output}")
+    st.write(f"Emotion Prediction: {text_output}")
