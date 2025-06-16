@@ -1,5 +1,6 @@
 import streamlit as st
 import joblib
+import sklearn
 
 # Muat model dan vektorisasi yang telah disimpan
 model = joblib.load('emotion_model.pkl')
